@@ -1,0 +1,40 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.d71cfa67-aec0-4e30-b74c-12bbebda73df",
+      "was_cloned": false,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "ask-custom-PinkFloydConcertManager-default"
+              }
+            }
+          }
+        }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "fa6f7d3752a54a9885166ec9977a5f0a"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "09dc56b1768d21939c6e1942fe12d9fa"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:882240669354:function:ask-custom-PinkFloydConcertManager-default",
+            "functionName": "arn:aws:lambda:us-east-1:882240669354:function:ask-custom-PinkFloydConcertManager-default",
+            "awsRegion": "us-east-1",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "9366e81a-7c58-4c1e-9866-4101d2653492"
+          }
+        ]
+      }
+    }
+  }
+}

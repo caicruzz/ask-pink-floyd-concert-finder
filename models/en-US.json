@@ -1,0 +1,40 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "pink floyd",
+      "types": [
+
+      ],
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "GetUpcomingConcertsIntent",
+          "slots": [
+
+          ],
+          "samples": [
+            "tell me the upcoming concerts in Miami Florida",
+            "give me the upcoming concerts in Miami Florida"
+          ]
+        }
+      ]
+    }
+  }
+}
